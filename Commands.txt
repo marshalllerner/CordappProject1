@@ -1,0 +1,7 @@
+start IOUFlow aptNumber: "1", addressLine1: "test", addressLine2: "test2", city: "New York", state: "New York", zipCode: "90210", BBL: "99", Price: 1000, SellingDate: "test3", reLedger: "O=RELedger,L=New York,C=US", sellAttester: "O=SellAttester,L=New York,C=US", buyAttester: "O=BuyAttester,L=New York,C=US"
+
+run vaultQuery contractStateType: com.template.states.IOUState
+
+Types
+Notary list
+Transaction verifying
